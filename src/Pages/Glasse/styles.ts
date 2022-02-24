@@ -1,0 +1,64 @@
+import styled from "styled-components";
+import COLORS from "../../colors";
+
+export const Container = styled.div`
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+`
+
+export const ItemTitle = styled.text`
+    color: ${COLORS.Dark};
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 150px;
+`
+
+export const ItemDescription = styled.text`
+    color: ${COLORS.Dark};
+    font-size: 18px;
+`
+
+export const ItemImg = styled.img`
+    height: 154px;
+    width: 362px;
+    margin-top: 90px;
+    object-fit: contain;
+`
+
+export const BottomContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 140px;
+`
+
+export const BuyButton = styled.div`
+    padding: 14px 40px;
+    background-color: ${COLORS.Dark};
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 24px;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        opacity: .9;
+    }
+`
+
+export const PriceText = styled.text`
+    color: ${COLORS.Dark};
+    font-size: 18px;
+    font-weight: 500;
+
+`
