@@ -15,7 +15,7 @@ export const ItemTitle = styled.text`
     color: ${COLORS.Dark};
     font-weight: 700;
     font-size: 64px;
-    margin-top: 150px;
+    margin-top: 100px;
 `
 
 export const ItemDescription = styled.text`
@@ -35,7 +35,7 @@ export const BottomContainer = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 140px;
+    bottom: 100px;
 `
 
 export const BuyButton = styled.div`
