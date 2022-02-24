@@ -16,11 +16,17 @@ export const ItemTitle = styled.text`
     font-weight: 700;
     font-size: 64px;
     margin-top: 100px;
+    @media(max-width: 640px) {
+        font-size: 24px;
+}
 `
 
 export const ItemDescription = styled.text`
     color: ${COLORS.Dark};
     font-size: 18px;
+    @media(max-width: 640px) {
+        font-size: 12px;
+}
 `
 
 export const ItemImg = styled.img`
@@ -28,6 +34,10 @@ export const ItemImg = styled.img`
     width: 362px;
     margin-top: 90px;
     object-fit: contain;
+    @media(max-width: 640px) {
+        height: 108px;
+        width: 180px;
+    }
 `
 
 export const BottomContainer = styled.div`
@@ -36,6 +46,10 @@ export const BottomContainer = styled.div`
     justify-content: center;
     position: absolute;
     bottom: 100px;
+    @media(max-width: 640px) {
+        flex-direction: column;
+        bottom: 64px;
+    }
 `
 
 export const BuyButton = styled.div`
@@ -51,6 +65,13 @@ export const BuyButton = styled.div`
     cursor: pointer;
     transition: .2s;
 
+    @media(max-width: 640px) {
+        margin-right: 0px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        padding: 14px 50px;
+       }
+
     &:hover {
         opacity: .9;
     }
@@ -60,5 +81,7 @@ export const PriceText = styled.text`
     color: ${COLORS.Dark};
     font-size: 18px;
     font-weight: 500;
-
+    @media(max-width: 640px) {
+        font-size: 16px;
+}
 `

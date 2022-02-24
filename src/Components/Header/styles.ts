@@ -13,4 +13,9 @@ export const Container = styled.div`
     font-weight: 800;
     font-size: 24px;
     z-index: 100;
+    @media(max-width: 640px) {
+        font-size: 14px;
+        padding: 0px 32px;
+        top: 24px;
+}
 `

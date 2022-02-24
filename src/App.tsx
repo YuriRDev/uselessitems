@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from './Components/Header';
 import DoubleMug from './Pages/DoubleMug';
 import Glasse from './Pages/Glasse';
-import Teste from './Pages/Teste';
 import ThickFork from './Pages/ThickFork';
 import WholeKit from './Pages/WholeKit';
 
@@ -46,7 +45,7 @@ function App() {
           width: '100vw',
           height: '100vh',
           position: 'fixed',
-          background: 'linear-gradient(107.56deg, #FFFFFF 0%, #F3E2E2 100%)',
+          background: 'linear-gradient(105.84deg, #FFFDFD 0%, #F9DFDF 77.84%)',
           opacity: (backgroundColor == 2) ? 1 : 0,
           transition: '1s'
         }}
