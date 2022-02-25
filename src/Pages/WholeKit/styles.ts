@@ -30,8 +30,8 @@ export const ItemDescription = styled.text`
 `
 
 export const ItemImg = styled.img`
-    height: 154px;
-    width: 362px;
+    height: 222px;
+    width: 371px;
     margin-top: 90px;
     object-fit: contain;
     @media(max-width: 640px) {
