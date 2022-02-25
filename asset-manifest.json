@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/uselessitems/static/js/main.a5164aa8.js",
+    "static/media/wholekit.png": "/uselessitems/static/media/wholekit.3ab12b5757b51dd74973.png",
+    "static/media/mugs.png": "/uselessitems/static/media/mugs.ed147b9882a191e11ca9.png",
+    "static/media/glasse.png": "/uselessitems/static/media/glasse.18fa4caad4318f758eab.png",
+    "static/media/fork.png": "/uselessitems/static/media/fork.5489fcfa128852ffdc80.png",
+    "index.html": "/uselessitems/index.html",
+    "main.a5164aa8.js.map": "/uselessitems/static/js/main.a5164aa8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a5164aa8.js"
+  ]
+}
