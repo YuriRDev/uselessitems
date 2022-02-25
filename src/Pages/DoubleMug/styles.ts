@@ -30,7 +30,7 @@ export const ItemDescription = styled.text`
 `
 
 export const ItemImg = styled.img`
-    height: 154px;
+    height: 257px;
     width: 362px;
     margin-top: 90px;
     object-fit: contain;
@@ -48,7 +48,7 @@ export const BottomContainer = styled.div`
     bottom: 100px;
     @media(max-width: 640px) {
         flex-direction: column;
-        bottom: 64px;
+        bottom: 140px;
     }
 `
 

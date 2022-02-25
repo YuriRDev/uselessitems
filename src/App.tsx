@@ -32,7 +32,7 @@ function App() {
           width: '100vw',
           height: '100vh',
           position: 'fixed',
-          background: 'linear-gradient(245.21deg, #FFFFFF 18.93%, #E2E6F3 72.94%)',
+          background: 'linear-gradient(245.21deg, #FFFFFF 20.8%, #DBE1F9 72.94%)',
           opacity: (backgroundColor == 1) ? 1 : 0,
           transition: '1s'
         }}

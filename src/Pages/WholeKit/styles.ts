@@ -48,7 +48,7 @@ export const BottomContainer = styled.div`
     bottom: 100px;
     @media(max-width: 640px) {
         flex-direction: column;
-        bottom: 64px;
+        bottom: 140px;
     }
 `
 
