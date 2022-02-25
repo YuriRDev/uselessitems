@@ -1,3 +1,26 @@
-# ⚠ Under Development
+# Useless Items 🛒
 
-⚒Come back here in a few days for updates.
+🎨 Design
+
+💻 Coded in React 
+
+🥅 Goal:
+
+*Make a background linear-gradient that changes everytime a new item is on view*
+
+## Build 🚧
+
+To build, simply use 
+
+```bash
+  yarn install
+```
+```bash
+  yarn build
+```
+
+
+
+## Demo 🚀
+
+https://yurirdev.github.io/uselessitems
