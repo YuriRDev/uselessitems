@@ -1,6 +1,6 @@
 # Useless Items 🛒
 
-🎨 Design
+🎨 Design *check my dribble =D*
 
 💻 Coded in React 
 
